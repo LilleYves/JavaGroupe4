@@ -44,7 +44,7 @@ class MountainMotorcycle extends MotorCycle{
     return (super.toString() + "\nseat height is " + seatHeight);
   }
 }
-// creating the pilot class
+// creating the test class
 public class Test{
   public static void main(String args[]){
     MountainMotorcycle mm = new MountainMotorcycle(0, 20, 30);
